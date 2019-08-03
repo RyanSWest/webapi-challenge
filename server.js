@@ -7,6 +7,6 @@ const projectRouter = require('./projectRouter')
 
 
 server.use('/actions', actionRouter);
-server.use('./projects', projectRouter);
+server.use('/projects', projectRouter);
 
 module.exports = server;
